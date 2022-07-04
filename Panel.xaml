@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="LedInterface.Panel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LedInterface"
+             mc:Ignorable="d" 
+             Background="#FF070112">
+    <Grid>
+        <WrapPanel x:Name="Workspace" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </WrapPanel>
+    </Grid>
+</UserControl>
